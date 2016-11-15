@@ -26,6 +26,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
+    bcrypt-ruby (3.1.2)
     bootstrap-sass (3.2.0.0)
       sass (~> 3.2)
     builder (3.1.4)
@@ -147,6 +148,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby (= 3.1.2)
   bootstrap-sass (= 3.2.0)
   capybara (= 2.1.0)
   coffee-rails (= 4.0.1)
@@ -163,5 +165,8 @@ DEPENDENCIES
   turbolinks (= 1.1.1)
   uglifier (= 2.1.1)
 
+RUBY VERSION
+   ruby 2.0.0p648
+
 BUNDLED WITH
-   1.10.6
+   1.13.6
